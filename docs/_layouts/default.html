@@ -13,29 +13,15 @@
 
     <header class="site-header">
       <nav class="navbar navbar-expand-md fixed-top">
-        <div class="container">
-          <a class="navbar-brand mr-4" href="">GitHub</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarToggle">
-            <div class="navbar-nav mr-auto">
-              <a class="nav-item nav-link" href="">Home</a>
-              <a class="nav-item nav-link" href="">About</a>
-              <a class="nav-item nav-link" href="">Contact</a>
-            </div>
-            <!-- Navbar Right Side -->
-            <div class="navbar-nav">
-                <a class="nav-item nav-link" href="">Profile</a>
-                <a class="nav-item nav-link" href="">Logout</a>
-                <a class="nav-item nav-link" href="">Login</a>
-                <a class="nav-item nav-link" href="">Register</a>
-            </div>
-          </div>
-        </div>
+        <a href="{{ site.github.repository_url }}" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        <a href="../index.html" class="btn btn-github">Home</a>
+        <a href="../projects.html" class="btn btn-github">Projects</a>
+        <a href="../contact.html" class="btn btn-github">Contact</a>
+        <a href="../profiles.html" class="btn btn-github">Profiles</a>
+      </nav>
     </header>
 
-    <a href="{{ site.github.repository_url }}" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+    
 
     <div class="container">
       <section id="main_content">
