@@ -1,0 +1,29 @@
+# Change 'comments' to true for Disqus comments
+disqus:
+  comments: false
+  disqus_shortname: 'millennial-3'
+
+# If you are not using Google Analytics, please change 'google-ID' to an empty string
+google-ID: '' #'UA-112060364-2'
+
+menu:
+- {name: 'COVID Active Cases', file: 'brandonwsa.github.io/covid-active-cases-frontend/'}
+- {name: 'About Me', folder: 'pages', file: 'about.html'}
+- {name: 'Contact', folder: 'pages', file: 'contact.html'}
+
+# Available social icons are powered by Font Awesome, so you can use any icon that they offer
+social:
+- {icon: 'linkedin', link: 'https://www.linkedin.com/in/brandon-ahrens-1074b41a7/'}
+- {icon: 'github', link: 'https://www.github.com/brandonwsa'}
+- {icon: 'twitter', link: 'https://twitter.com/ZiniteTV'}
+- {icon: 'instagram', link: 'https://instagram.com/brandonwsa'}
+- {icon: 'envelope', link: 'mailto:brandonwsa@gmail.com'}
+
+# Customize site text
+
+
+sharing_button_prompt: 'Feel free to share!'
+
+related_posts: 'You may also enjoy...'
+
+post_date_prefix: 'Written on'
