@@ -7,7 +7,7 @@ disqus:
 google-ID: '' #'UA-112060364-2'
 
 menu:
-- {name: 'COVID Active Cases', file: 'brandonwsa.github.io/covid-active-cases-frontend/'}
+- {name: 'COVID Active Cases', file: 'covid-active-cases-frontend/'}
 - {name: 'About Me', folder: 'pages', file: 'about.html'}
 - {name: 'Contact', folder: 'pages', file: 'contact.html'}
 
